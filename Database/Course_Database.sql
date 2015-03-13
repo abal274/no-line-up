@@ -20,7 +20,7 @@ INSERT INTO Course VALUES("SWS-220", "Advanced Software Development", "Mrs. Luca
 INSERT INTO Course VALUES("SWS-230", "Intermediate Networking Techniques", "Mr.Bob", "Advanced Networking Theories and Techniques based on Latest Networking Standards",
 "Winter", "A317", "10:30 AM - 12:30 PM", "Tuesday", "SWS-140", 30);
 INSERT INTO Course VALUES("SWS-310", "Software Programming 1", " Ms. Andrews", "Beginning Software Programming. Students will form groups and Design and Code thier own software",
-"Fall", "A332", "10:30 AM - 12:30 PM", "Monday", "SWS-220", 30);
+"Fall", "A332", "2:30 PM - 4:30 PM", "Monday", "SWS-220", 30);
 INSERT INTO Course VALUES("SWS-320", "Technical Writing", " Mr.Steve", "Writing Technical documents for the software industry",
 "Fall", "A312", "10:30 AM - 12:30 PM", "Wednesday", "SWS-230", 30);
 INSERT INTO Course VALUES("SWS-312", "Web Application and Services", "Mrs. Ng", "Designing Advanced websites using Database and MVC controllers",

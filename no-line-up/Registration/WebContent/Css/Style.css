@@ -34,3 +34,6 @@ body{
 a{
 	text-decoration: none;
 }
+tfoot{
+	font-weight: bold;
+}

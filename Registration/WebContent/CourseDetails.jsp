@@ -35,13 +35,10 @@ try {
               ResultSet rs = s.executeQuery(sql);
              System.out.println("query executed");
               while (rs.next()) {
-            	   String code = rs.getString(1);
 						out.println("<center><span style=\"color:Blue; font-size:2em;\">"+rs.getString(1)+"</span>");
                         out.println( "</br>" + rs.getString(2)+"<br/>");
                 
-            			out.println("<a href=Search.jsp?SearchTerm="+c+">Back</a> | ");
-            			out.println("<a href=Temp?Value="+ code +"&SearchTerm="+ c +">Add to Temporary Time Table</a></center>");
-            			   
+            			out.println("<a href=Search.jsp?SearchTerm="+c+">Back</a></center>");
    
               }
               rs.close();

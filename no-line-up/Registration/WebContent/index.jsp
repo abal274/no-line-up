@@ -64,7 +64,7 @@ try {
         	    System.out.println("query executed");
         	    	while (rs.next()) {
         	    		System.out.println("query executed");
-               		out.println("You Previously Searched For <a href=\"Search.jsp?SearchTerm=" + rs.getString(2) + "\">"+rs.getString(2)+"</a> on " + rs.getDate(1) +"<br/>");
+               		out.println("You Previously Searched For <a href=\"Search.jsp?SearchTerm=" + rs.getString(2) + "\">"+rs.getString(2)+"</a> on " + rs.getDate(1) + " at " + rs.getTime(1) + "<br/>");
                System.out.println("output extracted");
                }
                rs.close();

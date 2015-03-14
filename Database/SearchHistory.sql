@@ -1,0 +1,3 @@
+CREATE TABLE Temp(CourseCode VARCHAR(10), CourseName VARCHAR(255), Professor VARCHAR(255), Room VARCHAR(10), TimeSlot VARCHAR(255), 
+DaySlot VARCHAR(50));
+
